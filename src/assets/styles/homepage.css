@@ -1,0 +1,45 @@
+h1,
+h2,
+h3,
+p {
+  color: white;
+}
+.home {
+  text-align: left;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  margin: 10rem 11rem 1rem 11rem;
+  gap: 4rem;
+}
+h1 {
+  font-size: 7rem;
+  margin: 0;
+  font-family: fantasy;
+  letter-spacing: 17.2px;
+  display: inline;
+}
+.below {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.left,
+.right {
+  width: 20%;
+  border-bottom: 9px solid #ff323f;
+}
+.below h2,
+.below h3,
+.below p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.below h3 {
+  font-weight: 700;
+}
+.below h2 {
+  font-size: 4.5rem;
+  margin: 19px 0;
+  letter-spacing: 4px;
+}
