@@ -65,4 +65,13 @@ input {
   background-color: white;
   width: 11rem;
 }
+@media (max-width : 768px) {
+  .counter {
+    margin: 0;
+    margin-top: 7rem;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+}
 </style>
