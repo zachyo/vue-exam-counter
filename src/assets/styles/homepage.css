@@ -43,3 +43,24 @@ h1 {
   margin: 19px 0;
   letter-spacing: 4px;
 }
+
+@media (max-width: 768px) {
+  .home {
+    margin: 5rem 1rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  .below {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
+  .inner {
+    margin-top: 3rem;
+  }
+}
