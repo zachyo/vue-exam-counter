@@ -58,5 +58,11 @@ a:hover {
   header {
     margin: 1rem;
   }
+  header a {
+    font-size: 1.2rem;
+  }
+  main {
+    margin-bottom: 5rem;
+  }
 }
 </style>
