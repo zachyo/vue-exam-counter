@@ -8,7 +8,7 @@ const router = createRouter({
   routes: [
     { path: "/", component: HomePage },
     { path: "/counter", component: CounterApp },
-    { path: "/:pathMatch(.*)*", component: NotFound },
+    {path : '/:catchAll(.*)', component: NotFound, name: 'NotFound'}
   ],
 });
 
