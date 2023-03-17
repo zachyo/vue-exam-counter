@@ -54,4 +54,9 @@ a:hover {
   transform: translateX(8px);
   border-bottom: 4px solid #ff323f;
 }
+@media (max-width : 768px) {
+  header {
+    margin: 1rem;
+  }
+}
 </style>
