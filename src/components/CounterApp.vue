@@ -73,5 +73,9 @@ input {
   h1 {
     font-size: 6rem;
   }
+  .buttons {
+  margin: 5rem 0;
+  margin-bottom: 2rem;
+}
 }
 </style>
