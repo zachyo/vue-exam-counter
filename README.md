@@ -1,4 +1,7 @@
 # vue-exam-counter
+https://vue-exam-counter.netlify.app/
+
+this is the live demo of the app
 
 ## Project setup
 ```
